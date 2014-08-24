@@ -8,8 +8,7 @@ This file provides information on how to run this project:
 
 3) Use source("run_analysis.R") command in RStudio to run the script
 
-4) 2 text files will be created in the current directory.
-    * mergeddata.txt file containing the cleaned dataset (10299x68)
-    * txtdataAvg.txt file, a second, independent tidy data set with the average of each variable for each activity and each subject
+4) A text files will be created in the current directory.
+     * txtdataAvg.txt file, a second, independent tidy data set with the average of each variable for each activity and each subject
 
 5) Additionally present in the current folder is "CodeBook.md" file containing description of the variables and code.
