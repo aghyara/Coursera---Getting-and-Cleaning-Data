@@ -46,7 +46,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
     
     10) Combine the datasets "mergeSubject", "mergeLabel", "mergeData" into variable "dtCleaned". The first column contains the Subject integers (1 to 30), the 2nd column the 6 types of Activity names, the remaining 66 columns are the measurements.
     
-    11) Write this "dtCleaned" dataset into a file "mergeddata.txt"
+    11) Write this "dtCleaned" dataset into a file "mergeddata.txt". (Code commented)
     
     12) Creates a second, independent tidy data set with the average of each variable for each activity and each subject. For each combination of unique subjects (30) and activities (6), we calculte the average of each measurement
     
