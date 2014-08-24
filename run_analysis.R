@@ -42,7 +42,7 @@ names(mergeLabel) <- "dtActivity"
 # 4. Appropriately labels the data set with descriptive activity names.
 names(mergeSubject) <- "subject"
 dtCleaned <- cbind(mergeSubject, mergeLabel, mergeData)
-write.table(dtCleaned, "mergeddata.txt")
+#write.table(dtCleaned, "mergeddata.txt")
 
 # Creates a second, independent tidy data set with the average of
 # each variable for each activity and each subject.
